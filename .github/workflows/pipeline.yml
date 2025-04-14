@@ -12,7 +12,7 @@ jobs:
       - name: Run the script
         run: python hello.py
   build:
-    needs: [test]
+   
     runs-on: ubuntu-latest
     steps:
       - name: checkout the repo
