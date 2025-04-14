@@ -1,0 +1,16 @@
+name: challenge2
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Run the script
+        run: python hello.py
+
+
+  
